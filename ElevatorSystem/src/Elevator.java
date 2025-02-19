@@ -27,13 +27,14 @@ public class Elevator {
     }
 
     public synchronized Request getNextRequest() {
-        while(requests.isEmpty()) {
-            try {
-                wait();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
+        // REMOVED REDUNDANT CHECK
+//        while(requests.isEmpty()) {
+//            try {
+//                wait();
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        }
         return requests.remove(0);
     }
 
