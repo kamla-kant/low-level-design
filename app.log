@@ -1,0 +1,4 @@
+[1749917886815] [main] [DEBUG] : This is a debug message
+[1749917886815] [main] [INFO] : This is an information message
+[1749917942151] [class java.lang.String] [DEBUG] : This is a debug message
+[1749917942151] [class java.lang.String] [INFO] : This is an information message
